@@ -39,8 +39,10 @@ import ReactDOM from 'react-dom';
 // );
 
 
-          // practice 2 App components
-import App from './practice_2/App';
-ReactDOM.render(<App />, document.getElementById("root"));
+//           // practice 2 App components
+// import App from './practice_2/App';
+// ReactDOM.render(<App />, document.getElementById("root"));
 
-
+    // practice 3 calculator
+import Cal from './practice_3_calc/Cal';
+ReactDOM.render(<Cal />,document.getElementById("root"));
