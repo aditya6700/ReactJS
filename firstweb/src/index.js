@@ -43,6 +43,11 @@ import ReactDOM from 'react-dom';
 // import App from './practice_2/App';
 // ReactDOM.render(<App />, document.getElementById("root"));
 
-    // practice 3 calculator
-import Cal from './practice_3_calc/Cal';
-ReactDOM.render(<Cal />,document.getElementById("root"));
+//     // practice 3 calculator
+// import Cal from './practice_3_calc/Cal';
+// ReactDOM.render(<Cal />,document.getElementById("root"));
+
+    // practice 4 React hooks
+import App from './practice_4_hooks/App';
+import './practice_4_hooks/App.css'
+ReactDOM.render(<App />,document.getElementById("root"));
