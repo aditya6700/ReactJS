@@ -47,7 +47,13 @@ import ReactDOM from 'react-dom';
 // import Cal from './practice_3_calc/Cal';
 // ReactDOM.render(<Cal />,document.getElementById("root"));
 
-    // practice 4 React hooks
-import App from './practice_4_hooks/App';
-import './practice_4_hooks/App.css'
+//     // practice 4 React hooks
+// import App from './practice_4_hooks/App';
+// import './practice_4_hooks/App.css'
+// ReactDOM.render(<App />,document.getElementById("root"));
+
+
+    // practice 5 Event Handling
+import App from './P5_event_handling/App';
+import './P5_event_handling/App.css';
 ReactDOM.render(<App />,document.getElementById("root"));
