@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: boreder-box;
+    font-family: "Josefin Sans";
+}
+
+body{
+    text-align: center;
+    padding: 1.5rem;
+    color: blueviolet;
+    /* font-size: xx-large ; */
+}
+
+.imag {
+    display: flex;
+    justify-content: center;
+}
