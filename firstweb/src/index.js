@@ -53,7 +53,13 @@ import ReactDOM from 'react-dom';
 // ReactDOM.render(<App />,document.getElementById("root"));
 
 
-    // practice 5 Event Handling
-import App from './P5_event_handling/App';
-import './P5_event_handling/App.css';
+//     // practice 5 Event Handling
+// import App from './P5_event_handling/App';
+// import './P5_event_handling/App.css';
+// ReactDOM.render(<App />,document.getElementById("root"));
+
+
+    // practice 5 React Forms
+import App from './React_forms/App';
+import './React_forms/App.css';
 ReactDOM.render(<App />,document.getElementById("root"));

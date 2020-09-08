@@ -6,12 +6,12 @@ const App = () => {
 
     const bName = "Click Me";
     const [ fName , uName] = useState(bName)
-    
+
     const sChange = () => {
          let newbg = 'rgb(101, 212, 58)';
          newColor(newbg);
          uName("color changed !! 🤕");
-    };
+    }
 
     const normal = () => {
         newColor(blue);
