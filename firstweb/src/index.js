@@ -59,7 +59,12 @@ import ReactDOM from 'react-dom';
 // ReactDOM.render(<App />,document.getElementById("root"));
 
 
-    // practice 5 React Forms
-import App from './React_forms/App';
-import './React_forms/App.css';
+//     // practice 6 React Forms
+// import App from './React_forms/App';
+// import './React_forms/App.css';
+// ReactDOM.render(<App />,document.getElementById("root"));
+
+    // practice 7 Complex Multiple Forms
+import App from './Complex_Forms/App';
+import './Complex_Forms/App.css';
 ReactDOM.render(<App />,document.getElementById("root"));
