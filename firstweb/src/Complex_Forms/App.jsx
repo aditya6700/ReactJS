@@ -20,35 +20,40 @@ const App= () =>  {
         const { value, name} = event.target;  // object destructuring
 
         setName((pastValue) => {
-            if(name === "fname"){
-                return{
-                    fname: value,
-                    lname: pastValue.lname,
-                    phone: pastValue.phone,
-                    email: pastValue.email,
-                };
-            }else if(name === "lname"){
-                return{
-                    fname: pastValue.fname,
-                    lname: value,
-                    phone: pastValue.phone,
-                    email: pastValue.email,
-                };
-            }else if(name === "email"){
-                return{
-                    fname: pastValue.fname,
-                    lname: pastValue.lname,
-                    phone: pastValue.phone,
-                    email: value,
-                };
-            }else if(name === "phone"){
-                return{
-                    fname: pastValue.fname,
-                    lname: pastValue.lname,
-                    phone: value,
-                    email: pastValue.email,
-                };
+
+            return{
+               ...pastValue,   // setting past values for all the fields
+               [name]: value,  // for the specified name the value is set
             }
+            // if(name === "fname"){
+            //     return{
+            //         fname: value,
+            //         lname: pastValue.lname,
+            //         phone: pastValue.phone,
+            //         email: pastValue.email,
+            //     };
+            // }else if(name === "lname"){
+            //     return{
+            //         fname: pastValue.fname,
+            //         lname: value,
+            //         phone: pastValue.phone,
+            //         email: pastValue.email,
+            //     };
+            // }else if(name === "email"){
+            //     return{
+            //         fname: pastValue.fname,
+            //         lname: pastValue.lname,
+            //         phone: pastValue.phone,
+            //         email: value,
+            //     };
+            // }else if(name === "phone"){
+            //     return{
+            //         fname: pastValue.fname,
+            //         lname: pastValue.lname,
+            //         phone: value,
+            //         email: pastValue.email,
+            //     };
+            // }
         });
     };
 
@@ -64,7 +69,7 @@ const App= () =>  {
                     <input type="text" placeholder="first name here" onChange={inputEvent} name='fname' value={Fullname.fname} />
                     <input type="text" placeholder="last name here"  onChange={inputEvent} name='lname' value={Fullname.lname} />
                     <input type="text" placeholder="email here" onChange={inputEvent} name='email' value={Fullname.email} />
-                    <input type="text" placeholder="phone number here" onChange={inputEvent} name='phone' value={Fullname.phone} />
+                    <input type="number" placeholder="phone number here" onChange={inputEvent} name='phone' value={Fullname.phone} />
 
                     <button type="submit"> Submit </button>
                 </div>
