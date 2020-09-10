@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family:  'Trebuchet MS',  'Lucida Sans', Arial, sans-serif;
     
 }
 
@@ -16,53 +16,86 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: rgb(80, 199, 86);
+    background-color: rgb(70, 200, 209);
 }
 
 .list_div{
 
-    background-color: antiquewhite;
-    height: 50vh;
-    width: 25%;
+    background-color: rgb(240, 235, 231);
+    height: 40vh;
+    width: 22%;
     border-radius: 20px;
     box-shadow: 6px 15px 15px -10px rgb(76, 78, 78);
 }
  
 .list_div h1{
     background: transparent;
-    background-color: rgb(241, 221, 35);
-    margin-top: 50px;
-    color: white;
+    /* background-color: rgb(241, 221, 35); */
+    text-shadow: 4px 5px 3px rgb(124, 124, 119);
+    margin-top: 40px;
+    color: rgb(0, 0, 0);
     padding : 6px 0 2px ;
     font-size: 50px;
-    box-shadow: 0px 8px 5px -5px rgb(87, 87, 84);
+    font-weight: 400;
+    
 }
 
 
 
 .button_div{
     background: transparent;
-    margin-top: 80px;
+    margin-top: 30px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    /* font-size: large; */
+    /* color: black; */
 }
 
-button{
+Button{
     width: 30%;
     min-height: 50px;
     border-radius: 15px;
     border: none;
     border-color: transparent;
-    background-color:rgb(241, 221, 35);
-    color: white;
-    font-size: 30px;
-    font-weight: 500;
+    /* background-color:rgb(241, 221, 35); */
+    /* color: white; */
     outline: none;
-    box-shadow: 2px 5px 10px -5px rgb(87, 87, 84);
-    cursor: pointer;
+    box-shadow: 2px 5px 10px -5px  rgb(124, 124, 119);
+    cursor: pointer; 
+    font-weight: bolder;
+    font-size: large;
 }
 
-button:hover{
-    background-color: rgb(100, 221, 52);
+.button_div .add :hover{
+    color: rgb(70, 248, 0);
 }
+
+.button_div .delete :hover{
+    color: crimson;
+}
+
+@media (max-width: 768px) {
+    .main_list{
+      width: 70%;
+    }
+    .list_div  {
+      margin: 0 15px 0 35px;
+      height: 40vh;
+      width: 40%;
+    }
+    .button_div{
+ 
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    
+    }
+    button{
+      margin-left: 5px;
+      min-height: 40px;
+      width: 40px;
+      color: white;
+      font-size: 40px;
+    }
+  }
