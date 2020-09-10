@@ -13,7 +13,12 @@ import ReactDOM from 'react-dom';
 // import './chalenge_2/App.css';
 // ReactDOM.render(<App />, document.getElementById("root"));
 
-    //  challenge 3 Digital Clock
-import App from './challenge_3/App';
-import './challenge_3/App.css';
+//     //  challenge 3 Digital Clock
+// import App from './challenge_3/App';
+// import './challenge_3/App.css';
+// ReactDOM.render(<App />, document.getElementById("root"));
+
+    //  challenge 4 INC and DEC numbers
+import App from './challenge_4/App';
+import './challenge_4/App.css';
 ReactDOM.render(<App />, document.getElementById("root"));
