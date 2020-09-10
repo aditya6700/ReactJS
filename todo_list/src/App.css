@@ -108,7 +108,7 @@ ol li{
 
 @media (max-width: 768px) {
   .main_list{
-    width: 60%;
+    width: 70%;
   }
   .reminder_list .fa-times{
     margin: 0 15px 0 35px;
