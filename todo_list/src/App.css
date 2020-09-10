@@ -38,7 +38,7 @@ h1{
 
 input{
   text-align: center;
-  height: 25px;
+  height: 30px;
   width: 60%;
   font-size: 20px;
   font-weight: 500;
@@ -67,7 +67,7 @@ button:hover{
 }
 
 ol{
-  margin-top: 40px;
+  margin-top: 15px;
 }
 
 ol li{
