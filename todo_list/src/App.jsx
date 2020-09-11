@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import Reminders from './Reminders';
+import Button from '@material-ui/core/Button';
+import AddIcon from '@material-ui/icons/Add';
 
 const App = () => {
   const [ inputList, setInputList] = useState("");
@@ -12,7 +14,7 @@ const App = () => {
   const addReminder = (e) => {
     e.preventDefault();
     setItems((oldReminder) => {
-      return [...oldReminder, inputList]
+     return  inputList !== "" ? [...oldReminder, inputList] : [...oldReminder]
     });
     setInputList("");
   };
@@ -28,13 +30,18 @@ const App = () => {
     <>
     <div className="main_div">
         <div className="main_list">
-          <br />
-          <h1>Reminder</h1>
-          <br />
+          <br />  <h1>Reminder's</h1> <br />
+          
           <form onSubmit={addReminder}>
-          <input type="text" placeholder=" add a reminder " 
-          onChange={InputEvents} value={inputList}/>
-          <button type="submit"> + </button>
+            <input type="text" placeholder=" add a reminder " 
+            onChange={InputEvents} value={inputList}/>
+
+            {/* <button type="submit"> + </button> */}
+
+            <Button variant="contained" type="submit" className="newButton" style={{ fontSize: "30px"}}>
+              <AddIcon style={{ fontSize: "30px"}} />
+            </Button>
+
           </form>
           <br/>
           <ol>

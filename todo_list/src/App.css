@@ -21,49 +21,52 @@
 .main_list{
   width: 30%;
   height: 80vh;
-  background-color: rgb(222, 230, 227);
+  background-color: rgb(245, 250, 246);
   border-radius: 20px;
   box-shadow: 5px 10px 10px -5px  rgb(34, 31, 31);
 }
 
 h1{
-  color : whitesmoke;
+  color : black;
   background: transparent;
-  background-color: rgb(40, 152, 204);
+  /* background-color: rgb(40, 152, 204); */
   padding : 6px 0 2px ;
   margin-bottom: 10px;
   margin-top: 2px;
-  box-shadow: 0px 8px 5px -5px rgb(87, 87, 84);
+  /* box-shadow: 0px 8px 5px -5px rgb(87, 87, 84); */
+  text-shadow: 5px 8px 5px  rgb(87, 87, 84);
 }
 
 input{
   text-align: center;
   height: 30px;
-  width: 60%;
+  width: 55%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
   font-size: 20px;
   font-weight: 500;
   background: transparent;
   border: none;
-  border-bottom: 3px solid rgb(40, 152, 204);
+  border-bottom: 3px solid rgb(65, 67, 68);
   outline: none;
 }
 
-button{
-  width: 40px;
-  min-height: 40px;
-  border-radius: 50%;
+.newButton{
+  width: 30px !important;
+  height: 50px !important;
+  border-radius: 50% !important;
   border: none;
-  border-color: transparent;
-  background-color: rgb(40, 152, 204);
-  color: white;
-  font-size: 40px;
-  margin-left: 15px;
+  border-color: transparent !important;
+  /* background-color: rgb(40, 152, 204) !important; */
+  color: black !important;
+  font-size: 40px ;
+  margin-left: 20px !important;
   outline: none;
   box-shadow: 2px 5px 10px -5px rgb(87, 87, 84);
 }
 
-button:hover{
-  background-color: rgb(3, 184, 42);
+.newButton:hover{
+  color: rgb(3, 184, 42) !important;
+  /* background-color: rgb(40, 152, 204) !important; */
 }
 
 ol{
@@ -79,7 +82,7 @@ ol li{
   display: flex;
   align-items: center;
   text-transform: capitalize;
-  color:  rgb(19, 72, 185);
+  color:  rgb(61, 63, 65);
 }
 
 .reminder_list{
@@ -90,20 +93,21 @@ ol li{
 }
 
 .reminder_list .fa-times{
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(40, 152, 204);
+  /* background-color: rgb(40, 152, 204); */
   border-radius: 50%;
   margin: 0 15px 0 35px;
-  color: aliceblue;
+  color: rgb(73, 77, 80);
   box-shadow: 2px 5px 10px -5px rgb(87, 87, 84);
+  cursor: pointer;
 }
 
 .reminder_list .fa-times:hover{
-  background-color: crimson;
+  background-color: rgb(233, 59, 94);
 }
 
 @media (max-width: 768px) {
@@ -116,7 +120,7 @@ ol li{
     justify-content: center;
     align-items: center;
   }
-  button{
+  .newButton{
     margin-left: 5px;
     min-height: 40px;
     width: 40px;
