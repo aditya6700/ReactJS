@@ -28,7 +28,11 @@ export default function App() {
     //  if you want it only for one time then specify an empty array
     useEffect(()=> {
         alert("you clicked");
-    }, [num]);   
+    }, [num]);     // alert on click of button 1
+
+    useEffect(()=> {
+        document.title = `button 2 is clicked ${num1} times`;
+    }, [num1]);     // changes the document title on click of button 2
 
     return(
         <>
