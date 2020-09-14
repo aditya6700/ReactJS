@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navlink{
+    width: 100%;
+    line-height: 80px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(35, 46, 53);
+    font-size: 30px;
+}
+.navlink .active_class{
+    color: white;
+}
+
+a {
+    color: rgb(12, 127, 194);
+    text-decoration: none;
+}
+
+.content{
+    padding: 2rem;
+    font-size: 30px;
+}

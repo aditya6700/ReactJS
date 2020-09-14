@@ -2,35 +2,28 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: rgb(99, 228, 66);
 }
 
-.main_div{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
 
 .nav_div{
+    line-height: 20px;
+    width: 100%;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    color: white;
+    justify-content: space-around;
+    color: rgb(217, 0, 255);
     font-size: larger;
     padding:1rem;
+    background-color: rgb(12, 53, 53);
 }
 
-.nav_div > div {
-    margin: 10px;
+a{
+    text-decoration: none;
+    color: rgb(229, 218, 240);
 }
 
 .data_div{
-    padding-top: 8rem;
-    color: aliceblue;
+    padding: 3rem;
+    color: rgb(53, 56, 59);
     font-size: xx-large;
 }
 ul{
@@ -38,5 +31,5 @@ ul{
 }
 
 .nav_div .active_class {
-    color: whitesmoke;
+    color: rgb(0, 250, 0);
 }
