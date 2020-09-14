@@ -22,7 +22,6 @@ import React, {useEffect, useState} from 'react';
 export default function App() {
     const [num, setnum] = useState(0);
     const [num1, setnum1] = useState(0);
-
     //  useEffect always expects a function and if you want to use this hook only for a 
     //  particular element then specify it in an array
     //  if you want it only for one time then specify an empty array

@@ -5,6 +5,12 @@ import Component1 from './Component1';
 const Fname = createContext();  
 const Lname = createContext();
 
+const Data = createContext(); 
+
+const contextData = {
+    fname1: "sai aditya devulpalli",
+    lname1: "aditya sai",
+}
 const App = () => { 
     return(
         <>
@@ -14,7 +20,9 @@ const App = () => {
 
         <Fname.Provider value={"sai aditya"}>   
             <Lname.Provider value={"devulapalli"}>
-                <Component1 />
+                <Data.Provider value={contextData}>
+                     <Component1 />
+                </Data.Provider>
             </Lname.Provider>
         </Fname.Provider>
             
@@ -23,7 +31,7 @@ const App = () => {
 };
 
 export default App;
-export {Fname, Lname};   // exporting context 
+export {Fname, Lname, Data};   // exporting context 
 // if you're exporting using flower brackets also you must import them using flower brackets
 
  
