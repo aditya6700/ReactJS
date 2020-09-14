@@ -18,7 +18,11 @@ import ReactDOM from 'react-dom';
 // import './challenge_3/App.css';
 // ReactDOM.render(<App />, document.getElementById("root"));
 
-    //  challenge 4 INC and DEC numbers
-import App from './challenge_4/App';
-import './challenge_4/App.css';
+//     //  challenge 4 INC and DEC numbers
+// import App from './challenge_4/App';
+// import './challenge_4/App.css';
+// ReactDOM.render(<App />, document.getElementById("root"));
+
+    //  bootstrap website
+import App from './bootstrap_web/App';
 ReactDOM.render(<App />, document.getElementById("root"));
