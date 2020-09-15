@@ -64,7 +64,11 @@ import ReactDOM from 'react-dom';
 // import './React_forms/App.css';
 // ReactDOM.render(<App />,document.getElementById("root"));
 
-    // practice 7 Complex Multiple Forms
-import App from './Complex_Forms/App';
-import './Complex_Forms/App.css';
+//     // practice 7 Complex Multiple Forms
+// import App from './Complex_Forms/App';
+// import './Complex_Forms/App.css';
+// ReactDOM.render(<App />,document.getElementById("root"));
+
+    // practice 8 useReducer
+import App from './useReducer/App';
 ReactDOM.render(<App />,document.getElementById("root"));
