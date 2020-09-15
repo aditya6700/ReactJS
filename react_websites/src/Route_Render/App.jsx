@@ -1,6 +1,7 @@
 import React from 'react';
 import {Route, Switch} from 'react-router-dom';
 import Navbar from './Navbar';
+import Error from '../Routing/Error';
 
 // there is no performance different between component and render prop 
 // if you there are no props use component={AppComponent} directly, 
@@ -21,9 +22,7 @@ export default function App() {
     const Project = () => {
         return( <h1> This is Project Page </h1> )
     }
-    const Error = () => {
-        return( <h1> Error 404 page not found </h1> )
-    }
+   
     return(
         <>
             <Navbar />

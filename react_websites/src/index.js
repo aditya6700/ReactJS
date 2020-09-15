@@ -34,8 +34,18 @@ import ReactDOM from 'react-dom';
 //     </BrowserRouter>
 // , document.getElementById("root"));
 
-          // practice 6 Router Hooks
-import App from './Router_hooks/App';
+//           // practice 6 Router Hooks
+// import App from './Router_hooks/App';
+// import {BrowserRouter} from "react-router-dom";
+// import './Route_Render/index.css';
+// ReactDOM.render(
+//     <BrowserRouter>
+//         <App />
+//     </BrowserRouter>
+// , document.getElementById("root"));
+
+          // practice 7 Live Search
+import App from './Live_search/App';
 import {BrowserRouter} from "react-router-dom";
 import './Route_Render/index.css';
 ReactDOM.render(
@@ -43,4 +53,3 @@ ReactDOM.render(
         <App />
     </BrowserRouter>
 , document.getElementById("root"));
-
