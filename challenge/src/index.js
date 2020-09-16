@@ -27,6 +27,10 @@ import ReactDOM from 'react-dom';
 // import App from './bootstrap_web/App';
 // ReactDOM.render(<App />, document.getElementById("root"));
 
-    //  Todolost using useReducer
-import App from './Todolist/App';
-ReactDOM.render(<App />, document.getElementById("root"));
+//     //  Todolost using useReducer
+// import App from './Todolist/App';
+// ReactDOM.render(<App />, document.getElementById("root"));
+
+    // Axios_api pokemon
+import App from './axios_api/App';
+ReactDOM.render(<App />, document.getElementById('root'));
