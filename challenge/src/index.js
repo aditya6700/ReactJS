@@ -31,6 +31,19 @@ import ReactDOM from 'react-dom';
 // import App from './Todolist/App';
 // ReactDOM.render(<App />, document.getElementById("root"));
 
-    // Axios_api pokemon
-import App from './axios_api/App';
-ReactDOM.render(<App />, document.getElementById('root'));
+//     // Axios_api pokemon
+// import App from './axios_api/App';
+// ReactDOM.render(<App />, document.getElementById('root'));
+
+    // final_react_website
+import App from './final_react_web/App';
+import { BrowserRouter as Router } from 'react-router-dom';
+import './final_react_web/index.css';
+ReactDOM.render(
+    <>
+    <Router>
+        <App />
+    </Router>
+    </>, 
+    document.getElementById('root'));
+    
