@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 export default function Common({name, contact, pathto, imgsrc}) {
     return (
         <>
-            <section id="header" className="d-flex align-items-center">
+        <section id="header" className="d-flex align-items-center">
            <div className="container-fluid">
                 <div className="row">
                     <div className='col-10 mx-auto'>
